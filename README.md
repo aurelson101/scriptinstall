@@ -4,12 +4,12 @@
 <p><h2>LINUX</h2></p>
 <p>For nextcloud : Don't forget to edit config.php</p>
 <code>
-'memcache.local' => '\OC\Memcache\Redis',
-'memcache.locking' => '\\OC\\Memcache\\Redis',
-'redis' => array(
-'host' => 'localhost',
-'port' => 6379,
-),
+<p>'memcache.local' => '\OC\Memcache\Redis',</p>
+<p>'memcache.locking' => '\\OC\\Memcache\\Redis',</p>
+<p>'redis' => array(</p>
+<p>'host' => 'localhost',</p>
+<p>'port' => 6379,</p>
+<p>),</p>
 </code>
 
 
