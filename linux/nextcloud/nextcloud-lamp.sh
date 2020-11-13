@@ -171,3 +171,4 @@ echo '0 0 * * 0 /usr/bin/certbot renew' >> certbot
 crontab certbot
 rm certbot
 
+echo "dont forget to read helpme.txt"
