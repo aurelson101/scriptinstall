@@ -6,4 +6,4 @@
 
 <p><h2>Windows</h2></p>
 
-<p>if you have things to raise/bug, do not hesitate to send me an email (mailto:support@aurelson.atlassian.net)</p>
+<p>if you have things to raise/bug, do not hesitate to send me an email <a href="mailto:support@aurelson.atlassian.net">Here</a></p>
