@@ -3,6 +3,7 @@
 Jailkit is a set of utilities that can limit user accounts to a specific directory tree and to specific commands. Setting up a jail is much easier using the Jailkit utilities that doing so 'by hand'. A jail is a directory tree that you create within your file system; the user cannot see any directories or files that are outside the jail directory. The user is jailed in that directory and it subdirectories.
 
 **Autorise to connect with ssh and sftp**
+
 You need to edit /etc/passwd :
 
     nano /etc/passwd
