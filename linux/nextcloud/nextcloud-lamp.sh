@@ -118,16 +118,16 @@ systemctl reload apache2
 echo "Redis for distributed caching on unixsocket"
 apt-get install php$PHPV-redis redis-server -y
 
-echo "Generate pw for redis connection"
-redis_pw="$(tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1)"
+#echo "Generate pw for redis connection"
+#redis_pw="$(tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1)"
 
-sed -i "s/# requirepass foobared/requirepass ${redis_pw}/g" /etc/redis/redis.conf
-sed -i 's/port 6379/port 0/g' /etc/redis/redis.conf
-sed -i 's/# unixsocket/unixsocket/g' /etc/redis/redis.conf
-sed -i 's/unixsocketperm 700/unixsocketperm 770/g' /etc/redis/redis.conf
+#sed -i "s/# requirepass foobared/requirepass ${redis_pw}/g" /etc/redis/redis.conf
+#sed -i 's/port 6379/port 0/g' /etc/redis/redis.conf
+#sed -i 's/# unixsocket/unixsocket/g' /etc/redis/redis.conf
+#sed -i 's/unixsocketperm 700/unixsocketperm 770/g' /etc/redis/redis.conf
 
 usermod -a -G redis www-data
-chown -R redis:www-data /var/run/redis
+#chown -R redis:www-data /var/run/redis
 
 systemctl reload apache2
 systemctl enable redis-server
