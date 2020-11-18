@@ -1,6 +1,6 @@
 ###############################################
 #            HUSSON AURELIEN                  #
-#     Script create AD User                   #
+#            Script create AD User            #
 ###############################################
 
 # Import AD module
