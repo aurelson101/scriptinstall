@@ -5,7 +5,7 @@
 # Incremental backups are made on any other days.
 #
 # USAGE: backup.sh [full]
-#
+# Before please install duplicity ex : apt install duplicity
 
 # get day of the month
 DATE=`date +%d`
