@@ -24,3 +24,4 @@ If you indicate that the script is not signed, open powershell as administrator 
 
 # Liste of Package
 [Basic Install Desktop](https://github.com/aurelson101/scriptinstall/blob/main/windows/winget/BasicInstall.ps1) Basic software installation for a normal user
+[Pack Son](https://github.com/aurelson101/scriptinstall/blob/main/windows/winget/PackSon.ps1) My Desktop Package
