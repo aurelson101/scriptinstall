@@ -10,6 +10,7 @@ This all my script from Linux and Windows:
 <p>- [NextCloud](https://github.com/aurelson101/scriptinstall/blob/main/linux/nextcloud/helpme.txt ) - Nextcloud Install Script</p>
 <p>- [JailKit](https://github.com/aurelson101/scriptinstall/blob/main/linux/jailkit/read.md ) - Jail Install Script</p>
 <p>- [Duplicity](https://github.com/aurelson101/scriptinstall/blob/main/linux/duplicity/read.md ) - Backup with Duplicity</p>
+<p>- [Kodi Ubuntu](https://github.com/aurelson101/scriptinstall/blob/main/linux/kodi-ubuntu/README.md ) - Kodi for Ubuntu Server</p>
 
 <p><h2>Windows</h2></p>
 <p>- [AddUser](https://github.com/aurelson101/scriptinstall/blob/main/windows/AddUserAD/read.md ) - Create User AD</p>
