@@ -11,6 +11,8 @@ This all my script from Linux and Windows:
 <p>- [JailKit](https://github.com/aurelson101/scriptinstall/blob/main/linux/jailkit/read.md ) - Jail Install Script</p>
 <p>- [Duplicity](https://github.com/aurelson101/scriptinstall/blob/main/linux/duplicity/read.md ) - Backup with Duplicity</p>
 <p>- [Kodi Ubuntu](https://github.com/aurelson101/scriptinstall/blob/main/linux/kodi-ubuntu/README.md ) - Kodi for Ubuntu Server</p>
+<p>- [Wireguard](https://github.com/aurelson101/scriptinstall/blob/main/linux/vpn/readme.md ) - Wireguard VPN</p> 
+
 
 <p><h2>Windows</h2></p>
 <p>- [AddUser](https://github.com/aurelson101/scriptinstall/blob/main/windows/AddUserAD/read.md ) - Create User AD</p>
